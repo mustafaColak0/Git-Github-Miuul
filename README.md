@@ -37,7 +37,7 @@ Public Key (Genel Anahtar): GitHub'a eklenir (veri şifreleme).
 
 ## 2. Temel Git Komutları ve Çalışma Akışı
 
-Depo Oluşturma ve Takip
+Depo Oluşturma ve Takip :
 
 ```
 git init # Bulunulan dizinde yeni Git deposu başlatır
@@ -46,7 +46,7 @@ git add . # Tüm değişiklikleri sahneye (Staging Area) ekler
 git add dosya.txt # Belirli bir dosyayı sahneye ekler
 ```
 
-# Commit (Kaydetme) İşlemleri
+Commit (Kaydetme) İşlemleri :
 
 ```
 git commit -m "Mesaj" # Yapılan değişiklikleri mesajla kaydeder
@@ -56,13 +56,13 @@ git commit --amend # Son atılan commit'i düzenler veya yeni dosyaları son com
 
 # Kısayollar (Alias) ve Geçici Depolama (Stash)
 
-## Gelişmiş log görünümü için alias tanımlama
+Gelişmiş log görünümü için alias tanımlama :
 
 ```
 git config --global alias.takmaad "log --all --graph --decorate --oneline"
 ```
 
-# Tamamlanmamış değişiklikleri geçici olarak kaldırma
+Tamamlanmamış değişiklikleri geçici olarak kaldırma
 
 ```
 git stash
@@ -146,7 +146,9 @@ git checkout featuregit rebase master
 Git Tag (Etiketleme)
 Sürümleri veya önemli commit'leri işaretlemek için kullanılır.
 
+```
 git tag -a v1.0 -m "Sürüm 1.0 yayınlandı"
+```
 
 Git Grep (Arama)
 Proje içinde metin tabanlı arama yapar.
