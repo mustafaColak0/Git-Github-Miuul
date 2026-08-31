@@ -1,2 +1,5 @@
 deneme conflict
 2.satır
+deneme conflict
+2.satırdeneme conflict
+2.satırs
