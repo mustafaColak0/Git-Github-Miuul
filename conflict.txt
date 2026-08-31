@@ -1,5 +1,12 @@
 deneme conflict
+<<<<<<< HEAD
+clone data
+=======
 2.satır
+<<<<<<< HEAD
 deneme conflict
 2.satırdeneme conflict
 2.satırs
+=======
+>>>>>>> c0b6f39470edbce99890a67cc76e1eb4119abce6
+>>>>>>> 864eb90f766cba35797db671224a2e33f6e68bbb
