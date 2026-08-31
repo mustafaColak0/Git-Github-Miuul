@@ -1,1 +1,2 @@
 deneme conflict
+clone data
