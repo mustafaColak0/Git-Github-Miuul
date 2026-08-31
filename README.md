@@ -35,8 +35,9 @@ Private Key (Özel Anahtar): Bilgisayarda saklanır, paylaşılmaz (veri çözü
 
 Public Key (Genel Anahtar): GitHub'a eklenir (veri şifreleme).
 
-2. Temel Git Komutları ve Çalışma Akışı
-   Depo Oluşturma ve Takip
+## 2. Temel Git Komutları ve Çalışma Akışı
+
+Depo Oluşturma ve Takip
 
 ```
 git init # Bulunulan dizinde yeni Git deposu başlatır
@@ -81,7 +82,7 @@ git stash
 
 \*git show: Belirtilen commit'in detaylarını görüntüler.
 
-3. Uzak Depo (Remote) Yönetimi
+## 3. Uzak Depo (Remote) Yönetimi
 
 ```
 git clone <URL> # Uzak depoyu bilgisayara kopyalar
@@ -101,7 +102,7 @@ git fetch # Uzak depodaki güncellemeleri kontrol eder (yerelle birleştirmez)
 git pull # Uzak depodaki değişiklikleri çeker ve yerelle birleştirir
 ```
 
-4. Branch (Dal) Yönetimi ve Switch
+## 4. Branch (Dal) Yönetimi ve Switch
 
 ```
 git branch # Mevcut dalları listeler
@@ -112,8 +113,9 @@ git switch -c yenidal # Yeni dal oluşturur ve doğrudan o dala geçer
 git branch -D dal_adi # Belirtilen dalı zorla siler
 ```
 
-5. Merge (Birleştirme) Stratejileri
-   Fast-Forward Merge: Çakışma yoksa dalı doğrudan ana dalın önüne taşır (git merge feature).
+## 5. Merge (Birleştirme) Stratejileri
+
+Fast-Forward Merge: Çakışma yoksa dalı doğrudan ana dalın önüne taşır (git merge feature).
 
 No-Fast-Forward (--no-ff): Dalları birleştirirken geçmişin korunması için zorunlu olarak yeni bir merge commit'i oluşturur (git merge --no-ff feature).
 
@@ -121,7 +123,7 @@ Squash Merge: Yan daldaki tüm commit'leri tek bir commit haline getirerek ana d
 
 Octopus Merge: Birden fazla dalı aynı anda ana dala birleştirmek için kullanılır (git merge branch1 branch2 branch3).
 
-6. Merge vs Rebase
+## 6. Merge vs Rebase
 
 Özellik,Merge,Rebase
 -Commit Oluşumu,Yeni bir Merge Commit oluşturur.,"Ekstra commit oluşturmaz, geçmişi düzleştirir."
@@ -139,9 +141,10 @@ git merge branch_adi
 git checkout featuregit rebase master
 ```
 
-7. Gelişmiş Git Araçları
-   Git Tag (Etiketleme)
-   Sürümleri veya önemli commit'leri işaretlemek için kullanılır.
+## 7. Gelişmiş Git Araçları
+
+Git Tag (Etiketleme)
+Sürümleri veya önemli commit'leri işaretlemek için kullanılır.
 
 git tag -a v1.0 -m "Sürüm 1.0 yayınlandı"
 
