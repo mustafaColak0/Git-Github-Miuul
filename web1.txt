@@ -1,2 +1,2 @@
-o
-kjekgjedkgjkdgkjdkjdkhdk
+1.satır
+2.satır düzenlendi
